@@ -1,0 +1,49 @@
+.letter {
+    background-color: rgb(96, 96, 255);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .left {
+        text-align: right;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: #fff;
+
+        span {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+
+    .right {
+        position: relative;
+
+        input {
+            width: 500px;
+            padding: 8px;
+            border-radius: 50px;
+            position: relative;
+            color: rgb(159, 156, 156);
+            border: none;
+        }
+
+        button {
+            position: absolute;
+            top: 3px;
+            right: 7px;
+            padding: 5px 8px;
+            border-radius: 50px;
+            width: 100px;
+            border: none;
+            background-color: rgb(96, 96, 255);
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+}
